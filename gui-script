@@ -1,0 +1,272 @@
+-- Designed and Scripted by LuckyCopely#0001
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Open = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local UICorner_2 = Instance.new("UICorner")
+local Main = Instance.new("Frame")
+local X = Instance.new("TextButton")
+local Name = Instance.new("TextLabel")
+local MurdererSheriffESP = Instance.new("TextButton")
+local AllPlayerESP = Instance.new("TextButton")
+local ESPOff = Instance.new("TextButton")
+local Run = Instance.new("TextButton")
+local Noclip = Instance.new("TextButton")
+local Fly = Instance.new("TextButton")
+local GodMode = Instance.new("TextButton")
+local CoinGrabber = Instance.new("TextButton")
+local XrayOn = Instance.new("TextButton")
+local XrayOff = Instance.new("TextButton")
+local Teleport = Instance.new("TextButton")
+local AFKFarm = Instance.new("TextButton")
+local Credits = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+Open.Name = "Open"
+Open.Parent = ScreenGui
+Open.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+Open.BorderSizePixel = 0
+Open.Position = UDim2.new(0.013888889, 0, 0.703984857, 0)
+Open.Size = UDim2.new(0, 142, 0, 59)
+
+TextButton.Parent = Open
+TextButton.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+TextButton.Position = UDim2.new(0, 0, -0.0172413792, 0)
+TextButton.Size = UDim2.new(0, 141, 0, 59)
+TextButton.Font = Enum.Font.Cartoon
+TextButton.Text = "OPEN"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 40.000
+TextButton.MouseButton1Down:connect(function()
+	Main.Visible = true
+	OpenFrame.Visible = false
+end)
+
+UICorner.CornerRadius = UDim.new(0.5, 0)
+UICorner.Parent = TextButton
+
+UICorner_2.CornerRadius = UDim.new(0.5, 0)
+UICorner_2.Parent = Open
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+Main.Position = UDim2.new(0.491495252, 0, 0.0287737064, 0)
+Main.Size = UDim2.new(0, 512, 0, 430)
+Main.Draggable = true
+
+X.Name = "X"
+X.Parent = Main
+X.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+X.BackgroundTransparency = 1.000
+X.BorderSizePixel = 0
+X.Position = UDim2.new(0.895384312, 0, 0.0119970404, 0)
+X.Size = UDim2.new(0, 28, 0, 27)
+X.Font = Enum.Font.Cartoon
+X.Text = "X"
+X.TextColor3 = Color3.fromRGB(255, 0, 0)
+X.TextSize = 30.000
+X.MouseButton1Down:connect(function()
+	Open.Visible = true
+	Main.Visible = false
+end)
+
+Name.Name = "Name"
+Name.Parent = Main
+Name.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Name.BackgroundTransparency = 1.000
+Name.BorderSizePixel = 0
+Name.Position = UDim2.new(0.30310905, 0, -0.00472945627, 0)
+Name.Size = UDim2.new(0, 200, 0, 43)
+Name.Font = Enum.Font.Cartoon
+Name.Text = "VIP Server GUI"
+Name.TextColor3 = Color3.fromRGB(255, 255, 255)
+Name.TextSize = 40.000
+
+MurdererSheriffESP.Name = "Murderer/Sheriff ESP"
+MurdererSheriffESP.Parent = Main
+MurdererSheriffESP.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MurdererSheriffESP.BorderSizePixel = 3
+MurdererSheriffESP.Position = UDim2.new(0.0836140811, 0, 0.0917431191, 0)
+MurdererSheriffESP.Size = UDim2.new(0, 200, 0, 46)
+MurdererSheriffESP.Font = Enum.Font.Cartoon
+MurdererSheriffESP.Text = "Murderer/Sheriff ESP"
+MurdererSheriffESP.TextColor3 = Color3.fromRGB(0, 0, 0)
+MurdererSheriffESP.TextSize = 20.000
+MurdererSheriffESP.MouseButton1Down:connect(function()
+	Scripthere
+end)
+
+AllPlayerESP.Name = "All Player ESP"
+AllPlayerESP.Parent = Main
+AllPlayerESP.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AllPlayerESP.BorderSizePixel = 3
+AllPlayerESP.Position = UDim2.new(0.519160986, 0, 0.0945380926, 0)
+AllPlayerESP.Size = UDim2.new(0, 200, 0, 46)
+AllPlayerESP.Font = Enum.Font.Cartoon
+AllPlayerESP.Text = "All Player ESP"
+AllPlayerESP.TextColor3 = Color3.fromRGB(0, 0, 0)
+AllPlayerESP.TextSize = 20.000
+AllPlayerESP.MouseButton1Down:connect(function()
+	Scripthere
+end)
+
+ESPOff.Name = "ESP Off"
+ESPOff.Parent = Main
+ESPOff.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ESPOff.BorderSizePixel = 3
+ESPOff.Position = UDim2.new(0.0853784084, 0, 0.224301249, 0)
+ESPOff.Size = UDim2.new(0, 200, 0, 46)
+ESPOff.Font = Enum.Font.Cartoon
+ESPOff.Text = "ESP Off"
+ESPOff.TextColor3 = Color3.fromRGB(0, 0, 0)
+ESPOff.TextSize = 20.000
+ESPOff.MouseButton1Down:connect(function()
+	Scripthere
+end)
+
+Run.Name = "Run"
+Run.Parent = Main
+Run.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Run.BorderSizePixel = 3
+Run.Position = UDim2.new(0.518972158, 0, 0.22477065, 0)
+Run.Size = UDim2.new(0, 200, 0, 46)
+Run.Font = Enum.Font.Cartoon
+Run.Text = "Run"
+Run.TextColor3 = Color3.fromRGB(0, 0, 0)
+Run.TextSize = 20.000
+Run.MouseButton1Down:connect(function()
+	Scripthere
+end)
+
+Noclip.Name = "No-clip"
+Noclip.Parent = Main
+Noclip.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Noclip.BorderSizePixel = 3
+Noclip.Position = UDim2.new(0.520925283, 0, 0.357798159, 0)
+Noclip.Size = UDim2.new(0, 200, 0, 46)
+Noclip.Font = Enum.Font.Cartoon
+Noclip.Text = "No-clip"
+Noclip.TextColor3 = Color3.fromRGB(0, 0, 0)
+Noclip.TextSize = 20.000
+Noclip.MouseButton1Down:connect(function()
+	Scripthere
+end)
+Fly.Name = "Fly"
+Fly.Parent = Main
+Fly.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Fly.BorderSizePixel = 3
+Fly.Position = UDim2.new(0.0855672061, 0, 0.357798159, 0)
+Fly.Size = UDim2.new(0, 200, 0, 46)
+Fly.Font = Enum.Font.Cartoon
+Fly.Text = "Fly"
+Fly.TextColor3 = Color3.fromRGB(0, 0, 0)
+Fly.TextSize = 20.000
+Fly.MouseButton1Down:connect(function()
+	Scripthere
+end)
+
+GodMode.Name = "God Mode"
+GodMode.Parent = Main
+GodMode.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GodMode.BorderSizePixel = 3
+GodMode.Position = UDim2.new(0.0855672061, 0, 0.490825683, 0)
+GodMode.Size = UDim2.new(0, 200, 0, 46)
+GodMode.Font = Enum.Font.Cartoon
+GodMode.Text = "God Mode"
+GodMode.TextColor3 = Color3.fromRGB(0, 0, 0)
+GodMode.TextSize = 20.000
+GodMode.MouseButton1Down:connect(function()
+	Scripthere
+end)
+
+CoinGrabber.Name = "Coin Grabber"
+CoinGrabber.Parent = Main
+CoinGrabber.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CoinGrabber.BorderSizePixel = 3
+CoinGrabber.Position = UDim2.new(0.0853784084, 0, 0.75688076, 0)
+CoinGrabber.Size = UDim2.new(0, 200, 0, 46)
+CoinGrabber.Font = Enum.Font.Cartoon
+CoinGrabber.Text = "Coin Grabber"
+CoinGrabber.TextColor3 = Color3.fromRGB(0, 0, 0)
+CoinGrabber.TextSize = 20.000
+CoinGrabber.MouseButton1Down:connect(function()
+	Scripthere
+end)
+
+XrayOn.Name = "Xray On"
+XrayOn.Parent = Main
+XrayOn.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+XrayOn.BorderSizePixel = 3
+XrayOn.Position = UDim2.new(0.0855672061, 0, 0.623853207, 0)
+XrayOn.Size = UDim2.new(0, 200, 0, 46)
+XrayOn.Font = Enum.Font.Cartoon
+XrayOn.Text = "Xray On"
+XrayOn.TextColor3 = Color3.fromRGB(0, 0, 0)
+XrayOn.TextSize = 20.000
+XrayOn.MouseButton1Down:connect(function()
+	Scripthere
+end)
+
+XrayOff.Name = "Xray Off"
+XrayOff.Parent = Main
+XrayOff.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+XrayOff.BorderSizePixel = 3
+XrayOff.Position = UDim2.new(0.520925283, 0, 0.623853207, 0)
+XrayOff.Size = UDim2.new(0, 200, 0, 46)
+XrayOff.Font = Enum.Font.Cartoon
+XrayOff.Text = "Xray Off"
+XrayOff.TextColor3 = Color3.fromRGB(0, 0, 0)
+XrayOff.TextSize = 20.000
+XrayOff.MouseButton1Down:connect(function()
+	Scripthere
+end)
+
+Teleport.Name = "Teleport"
+Teleport.Parent = Main
+Teleport.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Teleport.BorderSizePixel = 3
+Teleport.Position = UDim2.new(0.519160986, 0, 0.490825713, 0)
+Teleport.Size = UDim2.new(0, 200, 0, 46)
+Teleport.Font = Enum.Font.Cartoon
+Teleport.Text = "Teleport Gun"
+Teleport.TextColor3 = Color3.fromRGB(0, 0, 0)
+Teleport.TextSize = 20.000
+Teleport.MouseButton1Down:connect(function()
+	Scripthere
+end)
+
+AFKFarm.Name = "AFK Farm"
+AFKFarm.Parent = Main
+AFKFarm.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AFKFarm.BorderSizePixel = 3
+AFKFarm.Position = UDim2.new(0.518972158, 0, 0.75688076, 0)
+AFKFarm.Size = UDim2.new(0, 200, 0, 46)
+AFKFarm.Font = Enum.Font.Cartoon
+AFKFarm.Text = "AFK Farm"
+AFKFarm.TextColor3 = Color3.fromRGB(0, 0, 0)
+AFKFarm.TextSize = 20.000
+AFKFarm.MouseButton1Down:connect(function()
+	Scripthere
+end)
+
+Credits.Name = "Credits"
+Credits.Parent = Main
+Credits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Credits.BorderSizePixel = 3
+Credits.Position = UDim2.new(0.0836141109, 0, 0.889438868, 0)
+Credits.Size = UDim2.new(0, 423, 0, 32)
+Credits.Font = Enum.Font.Cartoon
+Credits.Text = "Designed and Scripted by LuckyCopley#0001"
+Credits.TextColor3 = Color3.fromRGB(0, 0, 0)
+Credits.TextSize = 20.000
+
+UICorner_3.CornerRadius = UDim.new(0.100000001, 0)
+UICorner_3.Parent = Main
